@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="d-flex align-items-center justify-content-center">
+      <form action="./badwords.php" method="GET">
+        
+        <div class="form-input-container d-flex flex-column">
+
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Word to censor</span>
+            <input type="text" name="wordToCensor" class="form-control" placeholder="cavolo" aria-label="word-to-censor" aria-describedby="basic-addon1">
+          </div>
+
+          <div class="input-group">
+            <span class="input-group-text" >Text To Censor</span>
+            <textarea
+              class="form-control"
+              aria-label="text-to-censor"
+              name="txtToCensor"
+              rows="10"
+            ></textarea>
+
+          </div>
+
+          <button class="btn btn-outline-success my-3" >Request Censored Version</button>
+        </div>
+        
+      </form>
+    </main>
+  </body>
+</html>

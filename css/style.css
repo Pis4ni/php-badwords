@@ -1,0 +1,14 @@
+html{
+    
+    height: 100vh;
+}
+body{
+    background-color: #343434;
+    height: 100%;
+}
+.form-input-container{
+    max-width: 700px;
+}
+main{
+    height: 100%;
+}
