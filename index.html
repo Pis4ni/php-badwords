@@ -12,23 +12,20 @@
   </head>
   <body>
     <main class="d-flex align-items-center justify-content-center">
-      <form action="./badwords.php" method="GET">
+      <form action="./censor.php" method="GET">
         
         <div class="form-input-container d-flex flex-column">
 
           <div class="input-group mb-3">
+            
             <span class="input-group-text" id="basic-addon1">Word to censor</span>
             <input type="text" name="wordToCensor" class="form-control" placeholder="cavolo" aria-label="word-to-censor" aria-describedby="basic-addon1">
           </div>
 
           <div class="input-group">
+
             <span class="input-group-text" >Text To Censor</span>
-            <textarea
-              class="form-control"
-              aria-label="text-to-censor"
-              name="txtToCensor"
-              rows="10"
-            ></textarea>
+            <textarea class="form-control" aria-label="text-to-censor" name="txtToCensor" rows="10"></textarea>
 
           </div>
 

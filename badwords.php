@@ -1,9 +1,11 @@
 <?php
 
 $censored = "ciaooooooooo";
-
+$censoredWord = 'cavolo';
 $_GET["txtToCensor"];
 $_GET["wordToCensor"];
+$censoredWord = trim(wordToCensor);
+$censored = trim(txtToCensor);
 $censored = str_replace(wordToCensor, '<***>', txtToCensor);
 
 ?>
